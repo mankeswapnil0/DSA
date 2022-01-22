@@ -13,6 +13,7 @@ public:
             index += (index & (-index));
         }
     }
+    // build
     void buid(vector<int> &v, int n){
         REP(i,n){
             int index = i;
